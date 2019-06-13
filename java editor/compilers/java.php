@@ -73,7 +73,7 @@
                 <?php
                 
             }
-            exec("del $code_path");
+                        exec("del $code_path");
 			exec("del *.txt");
 			exec("del $executable");
     ?>
